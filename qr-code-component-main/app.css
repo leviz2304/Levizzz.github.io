@@ -1,0 +1,41 @@
+
+.attribution { font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+*::-webkit-scrollbar {
+    display: none;
+  }
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: "Quicksand", sans-serif;
+    background-color: hsl(212, 45%, 89%);
+    min-height: 100vh;
+    display: flex;
+    padding: 20px;
+}
+img{
+    border-radius: 10px;
+}
+.card {
+    max-width: 360px;
+    margin: auto;
+    position: relative;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px 10px;
+    padding-bottom: 30px;
+}
+span{
+    color:hsl(220, 15%, 55%)
+}
